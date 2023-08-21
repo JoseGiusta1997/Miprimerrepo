@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: rgb(53, 52, 52);
+    height: 100px;
+    font-size: 22px;
+    padding: 20px;
+}
+
+
+.logo{
+    float: left;
+    width: 60px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    width: 95px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.foto_logo{
+    float: left;
+    width: 60px;
+}
+.logo span{
+    margin: 40px;
+    width: 60px;
+    height: 60px;
+    text-align: right;
+    color: rgb(29, 121, 192);
+}
+.navbar {
+    float: right;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    color: rgb(29, 121, 192);
+}
+
+main{
+    height: calc(100vh - 120px);
+    background-image: url(Multimedia/Fondo1.jpg);
+    background-size:cover;
+    background-position:top;
+}
+.call{
+    color: rgba(255, 255, 255, 0.651);
+    width: 100%;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    float: right;
+    margin: 30px;
+    background-image:url(Multimedia/Fondopagina.jpg);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    color:rgb(10, 27, 157);
+    margin-bottom: 1px;
+}
+.call p{
+    margin-bottom: 20px;
+}
+.call a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1px 20px;
+    border: 2px solid rgb(248, 248, 248);
+}
+
+.call a:hover{
+    background-color: rgb(43, 226, 192);
+}
+
+#informacion{
+    height: calc(100vh - 80px);
+    background-image: url(Multimedia/Empresa1.jpg);
+    background-size:cover;
+}
+
+.Presupuestos{
+color: black;
+text-align: center;
+font-size: 50px;
+background-image: url(Multimedia/Fondopagina.jpg);
+}
+
+.imagenes_local{
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+}
+
+.tabla_sobre_nosotros{
+    font-size: 30px;
+    width: 100%;
+}
+.promo_3x2{
+    width: 700px;
+    height: 500px;
+}
+
+.foto_clientes{
+    width: 200px;
+    height: 200px;
+}
+
+.foto_clientes_index{
+    width: 450px;
+    height: 450px;
+}
+
+.formularios{
+    padding: 25px;
+    text-align: center;
+    margin: 40px;
+    width: 700px;
+}  
+
+footer{
+    background-color: black;
+    color: rgb(179, 92, 92);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px ;
+}
+footer p{
+    margin-bottom: 20px;
+}
+footer i{
+color: orange;
+font-size: 50px;
+letter-spacing: 30px ;
+}
+
+.section_indix{
+    background-image: url(Multimedia/Fondopagina.jpg);
+    border:rgb(0, 0, 0) solid;
+    padding: 50px;
+}
+.redes_sociales{
+    font-size: 50px;
+}
+
+.tamaño_tarjetas{
+    width: 480px;
+    height: 480px;
+}
+.tamaño_p_info{
+    font-size: 40px;
+    background-color: rgb(184, 162, 204);
+}
+
+.imagenes_local_info{
+    width: 450px;
+    height: 450px;
+}
+
+.h_info{
+font-size: 40px;
+text-align: center;
+}
+
+.input_presupuesto{
+    font-size: 35px;
+    height: 60px;
+    width: 600px;
+}
+.boton_presupuesto{
+    font-size: 35px;
+    height: 80px;
+    width: 300px;
+}
+.file{
+    font-size: 30px;
+    height: 80px;
+    width: 600px;
+}
+
+.tamaño_tarjetas_presupuesto{
+    width: 378px;
+    height: 378px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PreEntrega Jose Giusta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../estilos.css">
+  <link rel="shortcut icon" href="../Multimedia/azul.ico" type="image/x-icon"> <!--Se genera con .ico-->
+</head>
+<body>
+  <header> 
+    <a href="index.html"><img src="../Multimedia/azul.png" alt="logo" class="foto_logo"></a>
+    <div class="logo">Azul <span>Uniformes</span> </div> <!--Se genera con .logo-->
+    <nav class="navbar">
+      <ul>
+        <li><a href="../index.html"> Inicio   </a></li>
+        <li><a href="Informacion.html"> Informacion </a></li>
+        <li><a href="Clientes.html"> Clientes </a></li>
+        <li><a href="#"> Presupuestos </a></li>
+        <li><a href="lista-talles.html"> Lista de talles </a></li>        
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="call">
+      <h1>Presupuestos</h1>
+    </div>
+  </main>
+  <!--recolectar informacion de potenciales clientes-->
+<form action="Enviar.php" method="post" enctype="text/plain" class="Presupuestos">
+  <label for="">Su correo</label><br>
+  <input type="email" name=""  placeholder="EJ: Azuluniformes@hotmail.com" required class="input_presupuesto"><br>
+  <label for="">Escuela/empresa a la que pertenece</label><br>
+  <input type="text" name="" class="input_presupuesto"><br>
+  <label for="">Tipo de prenda que desea consultar</label><br>
+  <input type="text" name="" placeholder="EJ: Chomba talle M" class="input_presupuesto"><br>
+  <label for="">Cantidad</label><br>
+  <input type="number" name="" class="input_presupuesto"><br>
+  <label for="">Fecha de la consulta</label><br>
+  <input type="date" name="" class="input_presupuesto"><br>
+  <label for="">Opcional: Adjunte imagen de ejemplo</label><br>
+  <input type="file" name="" class="file"><br>
+  <input type="submit" class="boton_presupuesto">
+  <input type="reset" value="Borrar" class="boton_presupuesto">
+
+<h2>Indumentaria</h2>
+<!--Este apartado permite luego ampliar cada prenda en particular-->
+<section>
+  <table>
+    <tr>
+      <th>
+        <p class="tamaño_p_info"> Chomba </p>
+        <img src="../Multimedia/chomba.jpg" alt="Talles" class="tamaño_tarjetas_presupuesto"> 
+      </th>
+      <th>
+        <p class="tamaño_p_info"> Remera</p>
+        <img src="../Multimedia/remera.jpg" alt="Chaquetas" class="tamaño_tarjetas_presupuesto">
+      </th>
+      <th>
+        <p class="tamaño_p_info"> Uniforme </p>
+        <img src="../Multimedia/Uniformes2.jpg" alt="Pantalon" class="tamaño_tarjetas_presupuesto">
+      </th>
+      <th>
+        <p class="tamaño_p_info"> Ambo </p>
+        <img src="../Multimedia/ambo.png" alt="Pantalon" class="tamaño_tarjetas_presupuesto">
+      </th>
+    </tr>
+  </table>
+</section>
+</body>
+<footer>
+  <p>Todos los derechos reservados por copyright</p> 
+  <div class="redes"></div>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+</footer>
+</html>
